@@ -1,0 +1,123 @@
+<head>
+  <link href="faroukmarhaba.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link rel="icon" type="image/png" href="cedar.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farouk Marhaba</title>
+</head>
+
+<div class="block1">
+
+
+<div id="date"></div>
+<div class="center">
+  <div class="transformation">
+<div class="nameparent">
+  <div class="name">
+    <div class="nametext">
+      <div><span class="letteranimation1">F</span><span class="letteranimation2">a</span><span class="letteranimation3">r</span><span class="letteranimation4">o</span><span class="letteranimation5">u</span><span class="letteranimation6">k</span></div>
+      <div><br><span class="letteranimation7">M</span><span class="letteranimation8">a</span><span class="letteranimation9">r</span><span class="letteranimation10">h</span><span class="letteranimation11">a</span><span class="letteranimation12">b</span><span class="letteranimation13">a</span></div>
+    </div>
+  </div>
+</div>
+<div class="blockspace">&nbsp;</div>
+<div class="welcome">
+  <div class="welcometext">
+    Hey there! Welcome to my website!
+    <br><br>If you want to learn more about me, scroll down!
+  </div>
+</div>
+<div class="hl">&nbsp;</div>
+</div>
+
+
+</div>
+</div>
+
+<div class="block2">
+  <div class="center">
+    <div class="topicblock">
+      <div class="topicblocktitle">
+        About Me
+      </div>
+      <div class="topicblocktext">
+        I am currently a first-year BS Computer Science student at Georgia Institute of Technology.
+        <br><br><a href="mailto:farouk.marhaba@gatech.edu">Contact me</a> about anything!
+        <br>(farouk.marhaba@gatech.edu)
+      </div>
+    </div>
+    <div class="topicblock">
+      <div class="topicblocktitle">
+        Interests
+      </div>
+      <div class="topicblocktext">
+        My current interests include but are not limited to:
+        <br><br>User Experience/Interface Design
+        <br>Product Management
+        <br>Product Design/Ideation
+        <br>Non-Profit Management
+        <br>Medical Device Design/Implementation
+      </div>
+    </div>
+    <div class="topicblock">
+      <div class="topicblocktitle">
+        Experience
+      </div>
+      <div class="topicblocktext">
+        Personal projects have always been a great interest of mine.
+        For a full list of my experiences, please <a href="experience.html">click here</a>.
+        <br><br>To access my resume, please <a href="farouk_marhaba_resume.pdf">click here</a>.
+        <br><br><br>&nbsp;
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+function timeRefresh() {
+current =  new Date();
+year = current.getFullYear();
+month = current.getMonth() + 1;
+if (current.getMonth() + 1 == 1) {
+  m = "January";
+} else if (current.getMonth() + 1 == 2) {
+  m = "February";
+} else if (current.getMonth() + 1 == 3) {
+  m = "March";
+} else if (current.getMonth() + 1 == 4) {
+  m = "April";
+} else if (current.getMonth() + 1 == 5) {
+  m = "May";
+} else if (current.getMonth() + 1 == 6) {
+  m = "June";
+} else if (current.getMonth() + 1 == 7) {
+  m = "July";
+} else if (current.getMonth() + 1 == 8) {
+  m = "August";
+} else if (current.getMonth() + 1 == 9) {
+  m = "September";
+} else if (current.getMonth() + 1 == 10) {
+  m = "October";
+} else if (current.getMonth() + 1 == 11) {
+  m = "November";
+} else if (current.getMonth() + 1 == 12) {
+  m = "December";
+}
+hour = current.getHours();
+if (current.getHours() < 12) {
+  amPM = "AM";
+} else {
+  amPM = "PM";
+  hour = current.getHours() - 12;
+}
+minute = current.getMinutes();
+if (current.getMinutes() < 10) {
+  minute = "0" + minute
+}
+day = current.getDate();
+document.getElementById("date").innerHTML = m+" "+day+", "+year+" // "+hour+":"+minute+" "+amPM;
+}
+setInterval(function(){timeRefresh();}, 100);
+</script>

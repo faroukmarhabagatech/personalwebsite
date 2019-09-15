@@ -1,0 +1,280 @@
+.center {
+  margin:0 auto;
+  display:table;
+}
+.block1 {
+  height:100%;
+  background-color:#F8F8F8;
+}
+.block2 {
+  width:100%;
+  background-color:#F0F0F0;
+}
+#date {
+  font-family: Open sans;
+  font-size: 1em;
+  text-align: right;
+  background-color: #F8F8F8;
+  padding:10px;
+  position:sticky;
+  top:0;
+  z-index: 1;
+}
+.name {
+  font-family: Open sans;
+  font-weight: bold;
+  font-size: 4.7em;
+}
+.nametext {
+  background-color: ;
+
+}
+.nameparent {
+  background-color: ;
+  width:330px;
+  height:230px;
+  float:left;
+
+  line-height: 50px;
+  padding-top:20px;
+}
+.welcome {
+  float:left;
+  background-color: ;
+  font-family: Open sans;
+  font-size:1.5em;
+  width:300px;
+  height:250px;
+
+}
+.welcometext {
+  background-color: ;
+  padding:20px;
+}
+.blockspace {
+  height:250px;
+  width:70px;
+  float:left;
+  display:table;
+  background-color:;
+
+}
+.scroll {
+  background-color: ;
+  float:none;
+  text-align: center;
+  font-size: 5em;
+  color:red;
+}
+.transformation {
+  transform:translate(0%,+50%);
+  font-family: Open sans;
+}
+.topicblock {
+  width:350px;
+  background-color: ;
+  float:left;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.topicblocktitle{
+  font-family: Open sans;
+  font-size:1.5em;
+  font-weight: bold;
+  text-align: center;
+  background-color: ;
+  padding:20px;
+}
+.topicblocktext {
+  padding:25px;
+  color:black;
+  font-family: Open sans;
+  font-size:1em;
+  text-align: center;
+}
+a {
+  text-decoration: none!important;
+  color:#df80ff;
+}
+.hl {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  padding-top:250px;
+  width:100%;
+  background-color: ;
+
+
+}
+
+
+@media all and (max-width:700px) {
+.blockspace {
+  display:none;
+}
+.nameparent,.welcome {
+  float:none;
+  text-align: center;
+  width:350px;
+}
+.nameparent {
+  padding-top:40px;
+}
+.transformation {
+  transform:none;
+}
+.topicblock {
+  float:none;
+}
+.block1 {
+  height:none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.letteranimation1 {
+  transition:0.5s;
+}
+.letteranimation1:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+.letteranimation2 {
+  transition:0.5s;
+}
+.letteranimation2:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation3 {
+  transition:0.5s;
+}
+.letteranimation3:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation4 {
+  transition:0.5s;
+}
+.letteranimation4:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation5 {
+  transition:0.5s;
+}
+.letteranimation5:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation6 {
+  transition:0.5s;
+}
+.letteranimation6:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation7 {
+  transition:0.5s;
+}
+.letteranimation7:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation8 {
+  transition:0.5s;
+}
+.letteranimation8:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation9 {
+  transition:0.5s;
+}
+.letteranimation9:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+
+.letteranimation10 {
+  transition:0.5s;
+}
+.letteranimation10:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation11 {
+  transition:0.5s;
+}
+.letteranimation11:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation12 {
+  transition:0.5s;
+}
+.letteranimation12:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
+.letteranimation13 {
+  transition:0.5s;
+}
+.letteranimation13:hover {
+  color:#df80ff;
+  cursor: pointer;
+  font-size: 1.2em;
+
+}
